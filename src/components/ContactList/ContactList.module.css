@@ -1,0 +1,13 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 950px;
+  min-height: 177px;
+  margin: 0 auto;
+  border-radius: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  gap: 20px;
+}

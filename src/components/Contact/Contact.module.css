@@ -1,0 +1,27 @@
+.item p {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  max-width: 200px;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 1.12821;
+  letter-spacing: -0.01em;
+  color: #808080;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 220px;
+  min-height: 156px;
+  border-radius: 8px;
+  box-shadow: #808080 0px 0px 10px 0px;
+  border-top: 3px solid #4e85de;
+  border-bottom: 3px solid #4e85de;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
