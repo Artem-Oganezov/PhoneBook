@@ -8,6 +8,10 @@
   line-height: 1.12821;
   letter-spacing: -0.01em;
   color: #808080;
+
+   overflow-wrap: anywhere; 
+  white-space: normal; 
+  word-break: break-word; 
 }
 
 .item {

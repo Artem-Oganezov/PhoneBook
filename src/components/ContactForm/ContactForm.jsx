@@ -33,6 +33,7 @@ const ContactForm = () => {
       .max(50, 'max 50 chars')
       .required('Required'),
     number: Yup.string()
+      .matches(/^\+?\d+$/, 'Only numbers and + allowed')
       .min(3, 'min 3 chars')
       .max(50, 'max 50 chars')
       .required('Required'),
